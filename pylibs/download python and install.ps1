@@ -6,6 +6,16 @@ c:/temp/python-3.10.4.exe /quiet InstallAllUsers=0 PrependPath=1 Include_test=0
 setx PATH "%PATH%;C:\Python33\Scripts"
 
 Write-Host "Please press yes on the poped python window to continue the setup process!!"
+Write-Host " " 
+Write-Host "*******************************************************************************************"
+Write-Host "--------------------------------------- Please Wait ---------------------------------------"
+Write-Host "*******************************************************************************************"
+Write-Host " " 
+
+Write-Host "*******************************************************************************************"
+Write-Host "-----------------------------------Installation is Running --------------------------------"
+Write-Host "*******************************************************************************************"
+
 Start-Sleep -Seconds 60
 Read-Host -Prompt "Press any key to continue..."
 
