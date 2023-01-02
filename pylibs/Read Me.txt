@@ -13,21 +13,34 @@ Pre-Requiests
 
 The " pylibs " Folder consists of the following files 
 
- 1. download python and install.ps1 --> used to run the script.py automatically 
- 2. libs setup.ps1 --> the script that write the installation commands into the setup.bat file
- 
+ 1. download python and install.ps1 --> download python and install it using powershell cmd 
+ 2. libs setup.ps1 -->  download python libs and install them using powershell cmd 
+ 3. install-chrome.ps1 --> download google chrome and install it using powershell cmd 
 
  Now you know the structure of the " pylibs " folder
  
- please follow the next procedures to automate the setup process 
  
- 1. Right click on the download python and install.ps1  and choose Run with PowerShell , if the OS asked you to about change the default poliocy setting please press Y to Continue the process 
- 1.1 wait untill the python download completed and wait untill the OS show you setup window once its appered press Yes 
- 1.3 you will find message "" press any key to continue 		
- 2. Right click on the libs setup.ps1 and choose Run with PowerShell
- 2.1 wait untill python libraries completed , then the window will be closed 
  
-**********************************************************************************************
-* Please open the pictures "1.PNG" and "2.PNG" it's simple description of the whole process  *
-**********************************************************************************************
+Pre-request :
+ 1. Write “powershell”in the search bar (left bottom side) of windows
+ 2. Choose the blue icon and open it as administrator
+ 3. Write this command   “ Set-ExecutionPolicy RemoteSigned” 
+ 4. Write Y and then close it 
+	
+please follow the next procedures to automate the setup process
+
+Python installation:
+ 1. Download install folder from google drive or from flash drive. 
+ 2. Right click on the download_python_and_instal.ps1 in the pylibs folder and click to Run with PowerShell.
+ 3. Follow the instructions during installation.
+ 4. After installation right click on the libs_setup.ps1 and click to Run with PowerShell.
+ 5. After installation the PowerShell window will close automatically.
+
+Google Chrome installation:
+ 1. Right click on the install-chrome.ps1 in the pylibs folder and click to Run with PowerShell.
+ 2. Follow the instructions during installation.
+ 3. After installation, close the PowerShell window.
+
+ 
+
  
